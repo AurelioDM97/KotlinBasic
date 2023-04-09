@@ -1,7 +1,7 @@
 package exercise_3
 
 fun main() {
-    message(User.Email("None", "aureliodimarco@gmail.com"))
-    message(User.Facebook("Aurelio Di Marco", "aurelio@hotmail.it"))
-    message(User.Google("aureliodimarco97", "aureliodimarco97@gmail.com"))
+    printUsers(User.Email("None", "aureliodimarco@gmail.com"))
+    printUsers(User.Facebook("Aurelio Di Marco", "aurelio@hotmail.it"))
+    printUsers(User.Google("aureliodimarco1", "aureliodimarco97@gmail.com"))
 }
